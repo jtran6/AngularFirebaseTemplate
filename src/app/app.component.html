@@ -1,0 +1,11 @@
+<p-menubar [model]="items">
+  <input type="text" pInputText placeholder="Search">
+  <button pButton label="Logout" icon="fa fa-sign-out"></button>
+</p-menubar>
+<p-panel header="Extras">
+    <ul>
+        <li *ngFor="let item of items2 | async">
+            <pre>{{ item | json }}</pre>
+        </li>
+    </ul>
+</p-panel>
