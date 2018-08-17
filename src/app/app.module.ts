@@ -17,9 +17,15 @@ import { AngularFireModule } from 'angularfire2';
 import { AppComponent } from './app.component';
 import { environment } from '../environments/environment';
 
+// Pages
+import { NavigationComponent } from './components/shared/layout/navigation/navigation.component';
+import { FooterComponent } from './components/shared/layout/footer/footer.component';
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NavigationComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
