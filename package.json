@@ -24,6 +24,7 @@
     "core-js": "^2.5.4",
     "firebase": "^5.4.0",
     "font-awesome": "^4.7.0",
+    "npm": "^6.4.0",
     "primeng": "^6.1.2",
     "rxjs": "^6.0.0",
     "zone.js": "~0.8.26"
