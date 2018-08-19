@@ -1,0 +1,7 @@
+.contact-us-wrapper{}
+.contact-us-wrapper form .form-group label{
+    margin-right: 10px;
+}
+.contact-us-wrapper form .form-group input{
+    margin-left: 20px;
+}

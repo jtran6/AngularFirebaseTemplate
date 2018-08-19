@@ -1,8 +1,5 @@
-<app-navigation></app-navigation>
-<p-panel header="Extras">
-    <ul>
-        <li *ngFor="let item of items2 | async">
-            <pre>{{ item | json }}</pre>
-        </li>
-    </ul>
-</p-panel>
+<div id="container">
+    <app-navigation id="header"></app-navigation>
+    <router-outlet></router-outlet>
+    <!-- <app-footer id="footer"></app-footer> -->
+</div>

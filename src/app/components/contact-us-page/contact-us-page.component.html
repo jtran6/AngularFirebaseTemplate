@@ -1,0 +1,40 @@
+<div class="contact-us-wrapper">
+  <p-card>
+    image
+  </p-card>
+  <p-card>
+    <div class="ui-g">
+      <div class="ui-g-12 ui-md-12 ui-lg-9">ui-g-6 ui-md-6 ui-lg-9. Put contact Us information here.</div>
+      <div class="ui-g-12 ui-md-3 ui-lg-3">
+        <h1>Contact Us</h1>
+        <form>
+          <span class="ui-float-label">
+            <input id="firstName" type="text" size="30" pInputText>
+            <label for="firstName">First Name</label>
+          </span>
+          <br>
+          <span class="ui-float-label">
+            <input id="lastName" type="text" size="30" pInputText>
+            <label for="lastName">Last Name</label>
+          </span>
+          <br>
+          <!-- <span class="ui-float-label">
+                  <input id="companyName" type="text" size="30" pInputText> 
+                  <label for="companyName">Company Name</label>
+              </span> -->
+          <span class="ui-float-label">
+            <input id="email" type="text" size="30" pInputText>
+            <label for="email"> Email</label>
+          </span>
+          <br>
+          <span class="ui-float-label">
+            <textarea id="comments" [rows]="5" [cols]="30" pInputTextarea autoResize="autoResize"></textarea>
+            <label for="comments">Comments</label>
+          </span>
+          <br>
+          <button pButton type="button" class="ui-button-info" label="Submit"></button>
+        </form>
+      </div>
+    </div>
+  </p-card>
+</div>
